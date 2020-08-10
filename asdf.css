@@ -15,10 +15,22 @@
 
 #avatar1 {
   height: 5em;
-  padding-left:
+  padding-left:0;
 }
 
+#bell {
+  height: 5em;
+  padding-left:0;
+}
 
+#glass {
+  height: 5em;
+  padding-left:0;
+}
+
+body {
+  background-color: white;
+}
 
 #navbar a {
   display: inline-block;
