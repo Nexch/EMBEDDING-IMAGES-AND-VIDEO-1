@@ -1,12 +1,28 @@
 #logo {
-  height: 8em;
-  padding-left: 4em;
+  height: 10em;
+  padding-left: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
 
 }
 
 #searchbar {
-  width: 600px;
+  width: 400px;
   height: 20px;
-   position: center;
-  
+  margin: 70px 1px 1px 300px;
+}
+
+#avatar1 {
+  height: 5em;
+  padding-left:
+}
+
+
+
+#navbar a {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
 }
