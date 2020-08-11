@@ -84,7 +84,11 @@ body {
 	  display: flex;
 }
 #author h3 {
-	display: block;
+	display: table;
+	float:right;
+}
+#author a{
+	margin-top: 20px;
 }
 
 #author img{
@@ -95,8 +99,7 @@ body {
 }
 
 #like img{
-	margin-top: 59px;
-  margin-left: 100px;
+
   width: 20px;
   height: 20px;
   object-fit: none;
@@ -106,25 +109,31 @@ body {
 }
 
 #dislike img{
-	margin-top: 59px;
-  margin-left: 100px;
   width: 20px;
   height: 20px;
   object-fit: none;
   object-position: -174px -804px;
 }
 
+.suscribe {
+	margin-right: -650px;
+}
 
 .suscribe img {
  width: 20%;
- margin-top: 100px;
+ margin-top: 30px;
 
 }
-
-
-
 
 .author img {
 	border-radius: 50%;
 	width: 50%;
+}
+
+.videos {
+	overflow:auto;
+}
+
+.likes {
+ display: flex;
 }
