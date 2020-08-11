@@ -87,3 +87,19 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+.menu {
+  background-color: transparent; 
+  width:16px;
+  height:16px;
+  display:inline-block;
+  vertical-align:middle;
+  background-position: -198px -862px; 
+  background-repeat: no-repeat; 
+  border-width: 0px; 
+  border-style: none; 
+  margin: 0px; 
+  padding: 0px; 
+  border-color: white; 
+  font-size:100%;
+}
