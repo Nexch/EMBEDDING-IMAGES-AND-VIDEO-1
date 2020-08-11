@@ -10,6 +10,7 @@
 body {
 	margin: 0;
 	font-family: Roboto;
+
 }
 .searchBar {
 	display: flex;
@@ -20,6 +21,9 @@ body {
 	position: sticky;
 	top: 0;
   background: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	width: auto;
 }
 
 .logo {
@@ -43,4 +47,80 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.sidebar {
+  width: 450px;
+  background-color: white;
+  position: fixed;
+  height: 10px;
+  top: 50px;
+  right: 0px;
+  margin-right: 50px;
+}
+
+.sidebar img {
+  display: block;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.sidebar h5 {
+  color: black;
+  float: right;
+  margin-top: -80px;
+  padding-right: 100px;
+  padding-left: 200px;
+  padding-bottom: 10px;
+}
+
+.thumbnail {
+	margin-left: 710px
+}
+
+.details {
+	margin-left: 710px;
+}
+.details {
+
+}
+
+#author img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+
+}
+
+#like img{
+	margin-top: 59px;
+  margin-left: 100px;
+  width: 20px;
+  height: 20px;
+  object-fit: none;
+  object-position: 0px -867px;
+
+
+}
+
+#dislike img{
+	margin-top: 59px;
+  margin-left: 100px;
+  width: 20px;
+  height: 20px;
+  object-fit: none;
+  object-position: -174px -804px;
+}
+
+.videos {
+}
+
+.suscribe img {
+	margin-top: 59px;
+  margin-left: 100px;
+  width: 16px;
+  height: 12px;
+  object-fit: none;
+  object-position: -48px -775px;
 }
