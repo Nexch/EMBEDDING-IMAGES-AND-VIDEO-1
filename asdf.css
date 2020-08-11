@@ -68,7 +68,18 @@ li {
   height: 5em;
   padding-left:0;
 }
+.sidebar {
+ width: 200px;
+ background-color: black;
+ position: fixed;
+ height: 100%;
+ top: 180px;
+ right: 0px;
 
+}
+.sidebar a {
+  display: block
+}
 body {
   background-color: white;
   margin: 0;
@@ -89,17 +100,17 @@ body {
 }
 
 .menu {
-  background-color: transparent; 
+  background-color: transparent;
   width:16px;
   height:16px;
   display:inline-block;
   vertical-align:middle;
-  background-position: -198px -862px; 
-  background-repeat: no-repeat; 
-  border-width: 0px; 
-  border-style: none; 
-  margin: 0px; 
-  padding: 0px; 
-  border-color: white; 
+  background-position: -198px -862px;
+  background-repeat: no-repeat;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
   font-size:100%;
 }
