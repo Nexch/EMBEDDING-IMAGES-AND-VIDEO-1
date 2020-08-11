@@ -1,22 +1,37 @@
-#logo {
-  height: 10em;
-  padding-left: 5em;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
+* {
+  box-sizing: border-box;
+}
+#logo1 {
+  height: 9em;
+  width: 150px;
+  margin: -4px -300px 0px;
+  margin-left: 200px;
 
 }
-
+#botton1 {
+  width: 400px;
+  height: 20px;
+  margin-top: 60px;
+}
+#navbar {
+  display: flex;
+  width: 400px;
+  height: 20px;
+  margin-top: 60px;
+}
 #searchbar {
   width: 400px;
   height: 20px;
-  margin: 70px 1px 1px 300px;
+  margin: 60px 1px 1px 300px;
 }
 #icons {
-  width: 50px;
+  width: 100px;
   margin: 0px 0px 0px 215px;
-
-
+}
+.icons0 {
+  width: 400px;
+  height: 20px;
+  margin-top: 60px;
 }
 .views {
   margin: -40px 1px 1px 200px;
@@ -56,6 +71,7 @@ li {
 
 body {
   background-color: white;
+  margin: 0;
 }
 
 #navbar a {
@@ -66,7 +82,7 @@ body {
 }
 
 #video {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
