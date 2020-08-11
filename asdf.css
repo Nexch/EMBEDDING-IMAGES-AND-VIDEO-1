@@ -81,9 +81,10 @@ body {
 
 .details {
 	margin-left: 710px;
+	  display: flex;
 }
-.details {
-
+#author h3 {
+	display: block;
 }
 
 #author img{
@@ -113,14 +114,17 @@ body {
   object-position: -174px -804px;
 }
 
-.videos {
-}
 
 .suscribe img {
-	margin-top: 59px;
-  margin-left: 100px;
-  width: 16px;
-  height: 12px;
-  object-fit: none;
-  object-position: -48px -775px;
+ width: 20%;
+ margin-top: 100px;
+
+}
+
+
+
+
+.author img {
+	border-radius: 50%;
+	width: 50%;
 }
