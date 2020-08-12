@@ -9,12 +9,20 @@
 }
 body {
 	font-family: Roboto;
-  border-style: solid;
-	border-color: black;
 	margin-left: 300px;
 	margin-right: 300px;
+	background-color: #EEEEEE;
+	border-color: gray;
+	border-style: solid;
+	display: flex;
+
+}
+.true-box {
+	background-color: #EEEEEE;
 }
 .searchBar {
+	padding-left: 10px;
+	padding-right: 10px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -50,10 +58,8 @@ body {
 
 .sidebar {
   width: 450px;
-  background-color: gray;
-	position: inherit;
-  top: 0;
-	float: right;
+  background-color: white;
+	left: 0;
 
 }
 
@@ -73,18 +79,20 @@ body {
   padding-bottom: 10px;
 }
 
-.thumbnail{
 
-}
 
-.thumbnail iframe {
+iframe {
   width: 560px;
 	height: 315px;
 }
 
 .details {
-	display: flex;
+	width: 50%;
+	right: 100px;
+	background-color: white;
+	 flex-grow: 4;
 }
+
 #author h3 {
 	display: table;
 	float:right;
@@ -120,11 +128,6 @@ body {
 
 }
 
-.video-box {
-	border-style: solid;
-	border-color: red;
-	padding-left: 200px;
-}
 
 .suscribe img {
  width: 20%;
@@ -140,4 +143,47 @@ body {
 
 .likes {
  display: flex;
+}
+
+.separation {
+	padding: 100px 0 0 100px;
+	overflow: hidden;
+	background-color: #EEEEEE;
+
+
+}
+
+.separation2 {
+	padding: 10px 0 0 10px;
+	overflow: hidden;
+	background-color: #EEEEEE;
+}
+
+.text {
+	background-color: white;
+}
+.video-box {
+	border-style: solid;
+	border-color: red;
+	display: flex;
+	justify-content: flex-end;
+
+
+
+}
+
+.mainBody .thumbnail{
+  background-color: white;
+	width: 40%;
+}
+
+.mainBody {
+
+}
+.video1 {
+	border-style: solid;
+	border-color: black;
+	width: 50%;
+	flex: 1;
+
 }
