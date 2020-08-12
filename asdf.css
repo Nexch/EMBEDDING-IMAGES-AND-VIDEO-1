@@ -89,18 +89,10 @@ iframe {
   display: flex;
 }
 
-#author h3 {
-  display: table;
-  float: right;
-}
-
-.author a {
-  
-  
-}
-
-#author img {
-  border-radius: 50%;
+.author {
+	display: flex;
+	width: 50px;
+	height: 50px;
 }
 
 #like img {
@@ -119,6 +111,7 @@ iframe {
 
 .suscribe {
   width: 75px;
+	margin-right: 100px;
 }
 
 .suscribe img {
@@ -128,13 +121,12 @@ iframe {
 
 .author img {
   border-radius: 50%;
-  width: 50%;
 }
 
 .likes {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+	height: 70px;
+	display: flex;
+	padding-top: -10px;
 }
 
 .separation {
@@ -161,7 +153,7 @@ iframe {
 
 .video-box {
   display: flex;
- 
+
 }
 
 .mainBody .thumbnail {
@@ -176,10 +168,24 @@ iframe {
 	width: 600px;
 }
 
-.dislike {
-  top: 100px;
+.super_dislike {
+
 }
 
 .separation_side {
   margin-right: 1%;
+}
+
+.separation_side2 {
+	padding: 0px 90px 0px 120px;
+  overflow: hidden;
+}
+
+.separation_side3 {
+	margin: 0px 10px 0px 10px;
+  overflow: hidden;
+}
+
+.likes h5 {
+	margin: 0px 0px 30px 0px;
 }
