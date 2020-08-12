@@ -1,0 +1,185 @@
+:root {
+  --color-greyBg: #f9f9f9;
+  --color-grey: #e5e5e5;
+  --color-greyLight: #e5e5e5a8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  width: 60%;
+  margin-left: 450px;
+  margin-right: 300px;
+  background-color: #EEEEEE;
+  display: flex;
+}
+
+.true-box {
+  background-color: #EEEEEE;
+}
+
+.searchBar {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  top: 0;
+  background: white;
+  width: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.youTubeLogo {
+  width: 100px;
+  margin-left: 15px;
+}
+
+.input {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  width: 60px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  width: 450px;
+  background-color: white;
+  left: 0;
+}
+
+.sidebar img {
+  display: flex;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.sidebar h5 {
+  color: black;
+  float: right;
+  margin-top: -80px;
+  padding-right: 100px;
+  padding-left: 200px;
+  padding-bottom: 10px;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.details {
+  background-color: white;
+  display: flex;
+}
+
+#author h3 {
+  display: table;
+  float: right;
+}
+
+.author a {
+  
+  
+}
+
+#author img {
+  border-radius: 50%;
+}
+
+#like img {
+  width: 20px;
+  height: 20px;
+  object-fit: none;
+  object-position: 0px -867px;
+}
+
+#dislike img {
+  width: 20px;
+  height: 20px;
+  object-fit: none;
+  object-position: -174px -804px;
+}
+
+.suscribe {
+  width: 75px;
+}
+
+.suscribe img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.author img {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.separation {
+  padding: 20px 0 0 20px;
+  overflow: hidden;
+  background-color: #EEEEEE;
+}
+
+.separation2 {
+  padding: 10px 0 0 10px;
+  overflow: hidden;
+  background-color: #EEEEEE;
+}
+
+.text {
+  background-color: white;
+	padding: 10px 10px 10px 10px;
+}
+
+.text h3 {
+	border-top: 1px solid;
+	text-align: center;
+}
+
+.video-box {
+  display: flex;
+ 
+}
+
+.mainBody .thumbnail {
+  background-color: white;
+  width: 100%;
+}
+
+
+.video1 {
+  flex: 1;
+  margin-left: 0px;
+	width: 600px;
+}
+
+.dislike {
+  top: 100px;
+}
+
+.separation_side {
+  margin-right: 1%;
+}
