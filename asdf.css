@@ -8,21 +8,20 @@
 	box-sizing: border-box;
 }
 body {
-	margin: 0;
 	font-family: Roboto;
-
+  border-style: solid;
+	border-color: black;
+	margin-left: 300px;
+	margin-right: 300px;
 }
 .searchBar {
 	display: flex;
 	justify-content: space-between;
-	padding: 15px;
 	align-items: center;
 	height: 70px;
-	position: sticky;
+	position: relative;
 	top: 0;
   background: white;
-	margin-left: 150px;
-	margin-right: 150px;
 	width: auto;
 }
 
@@ -51,16 +50,15 @@ body {
 
 .sidebar {
   width: 450px;
-  background-color: white;
-  position: fixed;
-  height: 10px;
-  top: 50px;
-  right: 0px;
-  margin-right: 50px;
+  background-color: gray;
+	position: inherit;
+  top: 0;
+	float: right;
+
 }
 
 .sidebar img {
-  display: block;
+  display: flex;
   padding-bottom: 10px;
   margin-left: 20px;
   margin-top: 20px;
@@ -75,13 +73,17 @@ body {
   padding-bottom: 10px;
 }
 
-.thumbnail {
-	margin-left: 710px
+.thumbnail{
+
+}
+
+.thumbnail iframe {
+  width: 560px;
+	height: 315px;
 }
 
 .details {
-	margin-left: 710px;
-	  display: flex;
+	display: flex;
 }
 #author h3 {
 	display: table;
@@ -92,8 +94,7 @@ body {
 }
 
 #author img{
-	width: 50px;
-	height: 50px;
+
 	border-radius: 50%;
 
 }
@@ -116,7 +117,13 @@ body {
 }
 
 .suscribe {
-	margin-right: -650px;
+
+}
+
+.video-box {
+	border-style: solid;
+	border-color: red;
+	padding-left: 200px;
 }
 
 .suscribe img {
@@ -130,9 +137,6 @@ body {
 	width: 50%;
 }
 
-.videos {
-	overflow:auto;
-}
 
 .likes {
  display: flex;
