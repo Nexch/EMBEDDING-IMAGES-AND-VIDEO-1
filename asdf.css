@@ -1,36 +1,37 @@
 :root {
-	--color-greyBg: #f9f9f9;
-	--color-grey: #e5e5e5;
-	--color-greyLight: #e5e5e5a8;
+  --color-greyBg: #f9f9f9;
+  --color-grey: #e5e5e5;
+  --color-greyLight: #e5e5e5a8;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
-body {
-	font-family: Roboto;
-	margin-left: 300px;
-	margin-right: 300px;
-	background-color: #EEEEEE;
-	border-color: gray;
-	border-style: solid;
-	display: flex;
 
+body {
+  font-family: Roboto;
+  width: 60%;
+  margin-left: 450px;
+  margin-right: 300px;
+  background-color: #EEEEEE;
+  display: flex;
 }
+
 .true-box {
-	background-color: #EEEEEE;
+  background-color: #EEEEEE;
 }
+
 .searchBar {
-	padding-left: 10px;
-	padding-right: 10px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 70px;
-	position: relative;
-	top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  top: 0;
   background: white;
-	width: auto;
+  width: auto;
 }
 
 .logo {
@@ -40,17 +41,17 @@ body {
 
 .youTubeLogo {
   width: 100px;
-	margin-left: 15px;
+  margin-left: 15px;
 }
 
 .input {
   width: 500px;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 .button {
-  width:  60px;
+  width: 60px;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -59,8 +60,7 @@ body {
 .sidebar {
   width: 450px;
   background-color: white;
-	left: 0;
-
+  left: 0;
 }
 
 .sidebar img {
@@ -79,45 +79,38 @@ body {
   padding-bottom: 10px;
 }
 
-
-
 iframe {
   width: 560px;
-	height: 315px;
+  height: 315px;
 }
 
 .details {
-	width: 50%;
-	right: 100px;
-	background-color: white;
-	 flex-grow: 4;
+  width: 300px;
+  background-color: white;
+  display: flex;
 }
 
 #author h3 {
-	display: table;
-	float:right;
-}
-#author a{
-	margin-top: 20px;
+  display: table;
+  float: right;
 }
 
-#author img{
-
-	border-radius: 50%;
-
+#author a {
+  margin-top: 20px;
 }
 
-#like img{
+#author img {
+  border-radius: 50%;
+}
 
+#like img {
   width: 20px;
   height: 20px;
   object-fit: none;
   object-position: 0px -867px;
-
-
 }
 
-#dislike img{
+#dislike img {
   width: 20px;
   height: 20px;
   object-fit: none;
@@ -125,65 +118,71 @@ iframe {
 }
 
 .suscribe {
-
+  width: 300px;
 }
 
-
 .suscribe img {
- width: 20%;
- margin-top: 30px;
-
+  margin-top: 10px;
+  width: 100%;
 }
 
 .author img {
-	border-radius: 50%;
-	width: 50%;
+  border-radius: 50%;
+  width: 50%;
 }
 
-
 .likes {
- display: flex;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .separation {
-	padding: 100px 0 0 100px;
-	overflow: hidden;
-	background-color: #EEEEEE;
-
-
+  padding: 20px 0 0 20px;
+  overflow: hidden;
+  background-color: #EEEEEE;
 }
 
 .separation2 {
-	padding: 10px 0 0 10px;
-	overflow: hidden;
-	background-color: #EEEEEE;
+  padding: 10px 0 0 10px;
+  overflow: hidden;
+  background-color: #EEEEEE;
 }
 
 .text {
-	background-color: white;
-}
-.video-box {
-	border-style: solid;
-	border-color: red;
-	display: flex;
-	justify-content: flex-end;
-
-
-
-}
-
-.mainBody .thumbnail{
   background-color: white;
-	width: 40%;
+	padding: 10px 10px 10px 10px;
 }
 
-.mainBody {
-
+.text h3 {
+	border: 1px solid;
+	text-align: center;
 }
+
+.video-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mainBody .thumbnail {
+  background-color: white;
+  width: 100%;
+}
+
+.mainBody {}
+
 .video1 {
-	border-style: solid;
-	border-color: black;
-	width: 50%;
-	flex: 1;
+  flex: 1;
+  margin-left: 0px;
+	width: 600px;
+}
 
+.thumbnail {}
+
+.dislike {
+  top: 100px;
+}
+
+.separation_side {
+  margin-right: 1%;
 }
