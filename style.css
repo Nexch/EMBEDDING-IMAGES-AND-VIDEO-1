@@ -40,6 +40,7 @@
 }
 
 .button > i{
+  display: flex;
   margin-left: 12px;
 }
 
@@ -48,6 +49,27 @@
 }
 
 .icons__right > i{
+  display: flex;
   margin-right: 20px;
   
+}
+
+.section{
+  display: flex;
+}
+
+.rightside__menu{
+  flex:.2;
+}
+
+.video{
+  flex:.6;
+  align-items: center;
+  justify-content: center;  
+  border: 1px solid red; 
+  height: 500px;
+}
+
+.side__menu{
+  flex:.2;
 }
